@@ -5,7 +5,6 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:path_provider/path_provider.dart';
 
-import 'camera.dart';
 
 class ProfilePic extends StatefulWidget {
   const ProfilePic({

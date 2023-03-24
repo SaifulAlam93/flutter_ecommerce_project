@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ecommerce_ui/routes.dart';
+import 'package:ecommerce_ui/screens/profile/profile_screen.dart';
 import 'package:ecommerce_ui/screens/splash/splash_screen.dart';
 import 'package:ecommerce_ui/theme.dart';
 
@@ -22,14 +23,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
-// Test for branch
-
-// rakib
-// -----------ZIBON--------------
-//Rabiul islam
-//Hossain
-// enamul
-
-// Minhajul Islam
-

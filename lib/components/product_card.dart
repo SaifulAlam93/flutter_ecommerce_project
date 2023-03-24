@@ -94,6 +94,3 @@ class ProductCard extends StatelessWidget {
     );
   }
 }
-
-
-// test from nazmul hassan
