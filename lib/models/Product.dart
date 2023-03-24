@@ -18,6 +18,7 @@ class Product {
     required this.title,
     required this.price,
     required this.description,
+    // required this.description,
   });
 }
 
@@ -43,7 +44,7 @@ List<Product> demoProducts = [
     description: description,
     rating: 4.8,
     isFavourite: true,
-    isPopular: true,
+    isPopular: false,
   ),
   Product(
     id: 2,
@@ -91,16 +92,15 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Logitech Head",
+    title: "Logitech Head 4-4",
     price: 20.20,
     description: description,
     rating: 4.1,
     isFavourite: true,
     isPopular: true,
-
   ),
   Product(
-    id: 4,
+    id: 5,
     images: [
       "assets/images/wireless headset.png",
     ],
@@ -110,16 +110,15 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Logitech Head",
+    title: "Logitech Head 5-5",
     price: 20.20,
     description: description,
     rating: 4.1,
     isFavourite: true,
     isPopular: true,
-
   ),
   Product(
-    id: 4,
+    id: 6,
     images: [
       "assets/images/wireless headset.png",
     ],
@@ -129,13 +128,127 @@ List<Product> demoProducts = [
       Color(0xFFDECB9C),
       Colors.white,
     ],
-    title: "Logitech Head",
+    title: "Logitech Head 6-6",
+    price: 20.20,
+    description: description,
+    rating: 4.1,
+    isFavourite: true,
+    isPopular: false,
+
+  ),
+
+
+  Product(
+    id: 7,
+    images: [
+      "assets/images/ps4_console_white_1.png",
+      "assets/images/ps4_console_white_2.png",
+      "assets/images/ps4_console_white_3.png",
+      "assets/images/ps4_console_white_4.png",
+    ],
+    colors: [
+      Color(0xFFF6625E),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
+    ],
+    title: "Wireless Controller for PS4™ 7-7" ,
+    price: 64.99,
+    description: description,
+    rating: 4.8,
+    isFavourite: true,
+    isPopular: false,
+  ),
+  Product(
+    id: 8,
+    images: [
+      "assets/images/Image Popular Product 2.png",
+    ],
+    colors: [
+      Color(0xFFF6625E),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
+    ],
+    title: "Nike Sport White - Man Pant 8-8",
+    price: 50.5,
+    description: description,
+    rating: 4.1,
+    isPopular: false,
+  ),
+  Product(
+    id: 9,
+    images: [
+      "assets/images/glap.png",
+    ],
+    colors: [
+      Color(0xFFF6625E),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
+    ],
+    title: "Gloves XC Omega - Polygon 9-9",
+    price: 36.55,
+    description: description,
+    rating: 4.1,
+    isFavourite: true,
+    isPopular: false,
+  ),
+  Product(
+    id: 10,
+    images: [
+      "assets/images/wireless headset.png",
+    ],
+    colors: [
+      Color(0xFFF6625E),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
+    ],
+    title: "Logitech Head 10-10",
+    price: 20.20,
+    description: description,
+    rating: 4.1,
+    isFavourite: true,
+    isPopular: false,
+
+  ),
+  Product(
+    id: 11,
+    images: [
+      "assets/images/wireless headset.png",
+    ],
+    colors: [
+      Color(0xFFF6625E),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
+    ],
+    title: "Logitech Head 11-11",
     price: 20.20,
     description: description,
     rating: 4.1,
     isFavourite: true,
     isPopular: true,
 
+  ),
+  Product(
+    id: 12,
+    images: [
+      "assets/images/wireless headset.png",
+    ],
+    colors: [
+      Color(0xFFF6625E),
+      Color(0xFF836DB8),
+      Color(0xFFDECB9C),
+      Colors.white,
+    ],
+    title: "Logitech Head 12-12",
+    price: 20.20,
+    description: description,
+    rating: 4.1,
+    isFavourite: true,
+    isPopular: true,
   ),
 ];
 

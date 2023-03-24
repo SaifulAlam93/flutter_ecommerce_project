@@ -3,14 +3,16 @@ import 'package:ecommerce_ui/screens/details/details_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import '../../../constants.dart';
+import '../../../size_config.dart';
 
-import '../constants.dart';
-import '../size_config.dart';
+
+
 
 class ProductCard extends StatelessWidget {
   const ProductCard({
     Key? key,
-    this.width = 140,
+    this.width = 230,
     this.aspectRetio = 1.02,
     required this.product,
   }) : super(key: key);
@@ -94,6 +96,3 @@ class ProductCard extends StatelessWidget {
     );
   }
 }
-
-
-// test from nazmul hassan

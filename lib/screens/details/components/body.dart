@@ -1,3 +1,4 @@
+import 'package:ecommerce_ui/models/Cart.dart';
 import 'package:flutter/material.dart';
 import 'package:ecommerce_ui/components/default_button.dart';
 import 'package:ecommerce_ui/models/Product.dart';
@@ -42,7 +43,10 @@ class Body extends StatelessWidget {
                         ),
                         child: DefaultButton(
                           text: "Add To Cart",
-                          press: () {},
+                          press: () {
+                            demoCarts.add(Cart(product: product, numOfItem: 1));
+
+                          },
                         ),
                       ),
                     ),

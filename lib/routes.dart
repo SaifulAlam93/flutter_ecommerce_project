@@ -1,3 +1,8 @@
+<<<<<<< Updated upstream
+import 'package:flutter/material.dart';
+=======
+import 'package:ecommerce_ui/screens/list_view/list_view.dart';
+>>>>>>> Stashed changes
 import 'package:flutter/widgets.dart';
 import 'package:ecommerce_ui/screens/cart/cart_screen.dart';
 import 'package:ecommerce_ui/screens/complete_profile/complete_profile_screen.dart';
@@ -26,4 +31,23 @@ final Map<String, WidgetBuilder> routes = {
   DetailsScreen.routeName: (context) => DetailsScreen(),
   CartScreen.routeName: (context) => CartScreen(),
   ProfileScreen.routeName: (context) => ProfileScreen(),
+<<<<<<< Updated upstream
+  ProfileScreen.routeName: (context) => ProfileScreen(),
+=======
+  // ListDataView.routeName: (context) => ListDataView(),
+>>>>>>> Stashed changes
 };
+class MyWidget extends StatelessWidget {
+  const MyWidget({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      backgroundColor: Colors.black12,
+      appBar: AppBar(
+        
+      ),
+    );
+    
+  }
+}

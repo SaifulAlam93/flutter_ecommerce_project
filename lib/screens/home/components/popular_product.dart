@@ -1,3 +1,4 @@
+import 'package:ecommerce_ui/screens/list_view/list_view.dart';
 import 'package:flutter/material.dart';
 import 'package:ecommerce_ui/components/product_card.dart';
 import 'package:ecommerce_ui/models/Product.dart';
@@ -13,7 +14,23 @@ class PopularProducts extends StatelessWidget {
         Padding(
           padding:
               EdgeInsets.symmetric(horizontal: getProportionateScreenWidth(20)),
-          child: SectionTitle(title: "Popular Products", press: () {}),
+          child: SectionTitle(title: "Popular Products", press: () {
+
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => ListDataView(),
+              ),
+            );
+
+            // Navigator.pushNamed(context, ListDataView.routeName);
+
+            // Navigator.pushAndRemoveUntil(context,
+            //     MaterialPageRoute(builder: (context) => ListDataView()), (r) => false);
+
+
+
+          }),
         ),
         SizedBox(height: getProportionateScreenWidth(20)),
         SingleChildScrollView(
