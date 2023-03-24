@@ -18,6 +18,7 @@ class Product {
     required this.title,
     required this.price,
     required this.description,
+    // required this.description,
   });
 }
 
@@ -97,7 +98,6 @@ List<Product> demoProducts = [
     rating: 4.1,
     isFavourite: true,
     isPopular: true,
-
   ),
   Product(
     id: 4,
@@ -116,7 +116,6 @@ List<Product> demoProducts = [
     rating: 4.1,
     isFavourite: true,
     isPopular: true,
-
   ),
   Product(
     id: 4,
@@ -135,7 +134,6 @@ List<Product> demoProducts = [
     rating: 4.1,
     isFavourite: true,
     isPopular: true,
-
   ),
 ];
 
